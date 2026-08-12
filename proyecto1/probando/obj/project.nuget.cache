@@ -1,27 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "WKJ9iCVlKYY=",
+  "dgSpecHash": "pbxeRMquzU8=",
   "success": true,
   "projectFilePath": "C:\\Users\\jjuan\\miPrimerRepo\\proyecto1\\probando\\probando.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jjuan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\jjuan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\10.0.10\\microsoft.aspnetcore.app.ref.10.0.10.nupkg.sha512",
-    "C:\\Users\\jjuan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\10.0.10\\microsoft.netcore.app.host.win-x64.10.0.10.nupkg.sha512",
+    "C:\\Users\\jjuan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\jjuan\\.nuget\\packages\\microsoft.netcore.app.ref\\10.0.10\\microsoft.netcore.app.ref.10.0.10.nupkg.sha512",
-    "C:\\Users\\jjuan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\10.0.10\\microsoft.windowsdesktop.app.ref.10.0.10.nupkg.sha512"
+    "C:\\Users\\jjuan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\10.0.10\\microsoft.windowsdesktop.app.ref.10.0.10.nupkg.sha512",
+    "C:\\Users\\jjuan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\10.0.10\\microsoft.aspnetcore.app.ref.10.0.10.nupkg.sha512",
+    "C:\\Users\\jjuan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\10.0.10\\microsoft.netcore.app.host.win-x64.10.0.10.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "El paquete \"Newtonsoft.Json\" 12.0.3 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
-      "projectPath": "C:\\Users\\jjuan\\miPrimerRepo\\proyecto1\\probando\\probando.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\jjuan\\miPrimerRepo\\proyecto1\\probando\\probando.csproj",
-      "libraryId": "Newtonsoft.Json",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }
