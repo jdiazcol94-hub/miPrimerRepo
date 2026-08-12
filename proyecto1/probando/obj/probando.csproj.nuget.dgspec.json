@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/miPrimerRepo/proyecto1/probando/probando.csproj": {}
+    "C:\\Users\\jjuan\\miPrimerRepo\\proyecto1\\probando\\probando.csproj": {}
   },
   "projects": {
-    "/workspaces/miPrimerRepo/proyecto1/probando/probando.csproj": {
+    "C:\\Users\\jjuan\\miPrimerRepo\\proyecto1\\probando\\probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/miPrimerRepo/proyecto1/probando/probando.csproj",
+        "projectUniqueName": "C:\\Users\\jjuan\\miPrimerRepo\\proyecto1\\probando\\probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/miPrimerRepo/proyecto1/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/miPrimerRepo/proyecto1/probando/obj/",
+        "projectPath": "C:\\Users\\jjuan\\miPrimerRepo\\proyecto1\\probando\\probando.csproj",
+        "packagesPath": "C:\\Users\\jjuan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jjuan\\miPrimerRepo\\proyecto1\\probando\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jjuan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -38,11 +39,18 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "11.0.100"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,12 +62,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[10.0.10, 10.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[10.0.10, 10.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[10.0.10, 10.0.10]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[10.0.10, 10.0.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.200/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-preview.7.26381.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
